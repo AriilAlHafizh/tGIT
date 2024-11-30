@@ -58,4 +58,5 @@ for nama, hasil in data_panen.items() :
     if padi > 1300 or kedelai > 800 :
         print(f"lokasi {nama_lok} memerlukan perhatian khusus")
     else :
-        print(f"lokasi {nama_lok} aman")
+        #perubahan 1 (jadi "dalam kategori aman")
+        print(f"lokasi {nama_lok} dalam kategori aman")
